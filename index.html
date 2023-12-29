@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Digital Clock with Vue.js</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Share+Tech+Mono'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div id="clock">
+  <p class="date">{{ date }}</p>
+  <div id="progress">
+    <div class="progress-bar">
+        <div class="progress-bar-fill"></div>
+    </div>
+  </div>
+  <!-- <p class="time">{{ time }}</p> -->
+  <p class="time">{{ countDown }}</p>
+  <!-- <p class="text">DIGITAL CLOCK with Vue.js</p> -->
+</div>
+
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.3.4/vue.min.js'></script>
+  <script  src="./script.js"></script>
+
+</body>
+</html>
